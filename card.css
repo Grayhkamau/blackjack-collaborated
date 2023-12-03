@@ -20,6 +20,7 @@ body {
     box-shadow: inset 0 0 40px yellow;
     margin: 20px;
     padding: 10px;
+    transition:  0.9s ease ;
   }
   #btn{
     background-color: rgb(241, 10, 10);
