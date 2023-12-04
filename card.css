@@ -8,17 +8,17 @@ body {
     margin: 0 auto; 
   }
   #rules{
-    display: none;
     font-family: cursive;
-    margin-left: 0%;
+    left: 0%;
+    width: 0%;
+    transition: all 3s;
     top: 20%;
     position: absolute;
-    height: 70%;
+    height: 40%;
     border-radius: 8px;
-    background-color:aqua;
+    background-color:rgb(123, 255, 0);
     backdrop-filter: blur(160px);
-    box-shadow: inset 0 0 40px yellow;
-    margin: 20px;
+    opacity: 0;
     padding: 10px;
   }
   #btn{
@@ -42,7 +42,6 @@ body {
       border-radius: 20px;
       box-shadow: inset 0 0 100px black;
       margin-top: 0%;
-      position: relative;
   }
 
   .blackjack-table .you-hand {
