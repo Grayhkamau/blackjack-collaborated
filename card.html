@@ -2,10 +2,12 @@
 <html>
 <head>
   <title>Blackjack</title>
-  <link rel="stylesheet" href="./card.css">
+  <link rel="stylesheet" href="./card2.css">
 </head>
 <body>
+
   <div class="blackjack-table">
+
     <h1>Blackjack</h1>
     <p>lets play</p>
 <div class="container">
@@ -21,10 +23,12 @@
         <div class="card"></div>
       </div>
     </div>
+
     <div class="buttons">
       <button style="color: blue;" class="button hit">Hit</button>
       <button style="color:red;" class="button Deal">Stand</button>
       <button style="color: blue;" class="button stand">Deal</button>
+    
     </div>
 </div>
 <div class="records">
@@ -32,14 +36,37 @@
     <li>Draws</li>
     <li>losses</li>
 </div>
+<div class="button">
+  <!-- <input type="button"
+  name="how it works"
+  id="on-click"> -->
+  <botton><a href="#how">how it works</a></button>
+   <!-- for="on-click" class="enter">how it works</lable></div> -->
+<!-- <div class="all"> -->
+
+<a><div id="how">
+  
+  <div class="header"><h2> how it works</h2></div>
+  <p>Basically this is a game with 13 cards, each card having a value.<br> You have access to all the 13 cards, but you can only choose one card<br> randomly(if you choose to play LUCK)<br> or by testing how good you can memorize(if you choose to play <br>MEMORY). When you<br> choose a card, the value of that card becomes your score so far. If you<br> choose another card, it adds the value <br>of the current card to that of the previous one. But your cards total <br>should not cross 21, if they do you have BUSTED,<br> so you can't pick another card. Now if you bust or if you want to go <br>ahead with the score that you have,<br> its time for the dealer to play. If you are done with a round and want<br> to play another round,<br> just press deal.</p>
+  
+  <div class="header2"><h3>Win,Loses and draw Logic</h3></div>
+  <div class="list">
+  <li>If you bust and the dealer busts, its a draw</li>
+  <li>If your score is the same as the dealer's and you're both under 21, its a draw</li>
+
+<li>If the dealer busts but you don't, you won</li>
+
+<li>If both scores are under 21 but your score is higher than that of the dealer, you won</li>
+
+<li>If you busts but the dealer doesn't, you lose</li>
+
+<li>If both scores are under 21 but your score is less than that of the dealer, you lose</li>
+<div style="color: white;" class="close-btn">Got it</div>
   </div>
-  <div id="rules">
-    <h2>Rules</h2>
-    <li>You can't pick a card if you <br> burst</li>
-    <li>first you pay(hit) then <br>the dealer plays</li>
-    <li>You cannot deal before both of you <br> and the dealer plays</li>
-  </div>
-  <button id="btn">Rules</button>
-<script src="./card.js"></script>
+</div>
+</a>
+<!-- </div> -->
+  
+
 </body>
 </html

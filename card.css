@@ -5,43 +5,17 @@ body {
 
   .blackjack-table {
     width: 600px;
-    margin: 0 auto; 
-  }
-  #rules{
-    font-family: cursive;
-    left: 0%;
-    width: 0%;
-    transition: all 3s;
-    top: 20%;
-    position: absolute;
-    height: 40%;
-    border-radius: 8px;
-    background-color:rgb(123, 255, 0);
-    backdrop-filter: blur(160px);
-    opacity: 0;
-    padding: 10px;
-  }
-  #btn{
-    background-color: rgb(241, 10, 10);
-    padding: 5px;
-    border-radius: 5px;
-    font-family: cursive;
-    margin-left: 30%;
-    margin-top: 2%;
-  }
-  h2{
-    align-items: center;
-    font-weight: bolder;
-    color: black;
-    font-family: cursive;
-    margin-left: 40%;
+    /* height: 800px; */
+    margin: 0 auto;
+    position: relative;
+ 
+   
   }
   .container{
       background-image: url(./IMG-20231124-WA0002.jpg);
       border: 2px solid greenyellow;
       border-radius: 20px;
       box-shadow: inset 0 0 100px black;
-      margin-top: 0%;
   }
 
   .blackjack-table .you-hand {
@@ -115,7 +89,7 @@ body {
       box-shadow: inset 0 0 30px yellow;
       border-radius:5px ;
   }
-   h1{
+  .blackjack-table h1{
       align-items: center;
       font-family: cursive;
       margin-left: 35%; 
@@ -131,4 +105,57 @@ body {
       font-weight: bolder;
 
   }
+  .blackjack-table .button2 {
+    
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 6px;
+    background-color: transparent;
+    border-radius: 5px;
+    padding-left: 80%;
+  }
+  /* .how{
+    width: 500px;
+    height: 520px;
+     
+  } */
+.enter{   
+    width: fit-content;
+    height: 20px;
+    cursor: pointer;
+   position: absolute; 
+  }
+.header{
+  justify-content: center;
   
+  padding-left: 200px;
+}
+.header2{
+  justify-content: center;
+ 
+  padding-left: 200px;
+}
+  .close-btn{
+    background-color: blue;
+    height: 15px;
+    width: 50%;
+    padding-left: 120px;
+    cursor: pointer;
+  }
+  #how{
+    justify-content: center;
+    align-items: center;
+   width: 500px;
+   height: 610px; 
+   background-color: grey;
+    position: absolute;
+    top: 90%;
+  right: 20%;
+    transform: translate(50%, -90%);
+    transition: .5s ease-in-out;
+  }
+  #on-click:checked~ .how{
+    opacity: 1;
+    visibility: visible;
+  }
