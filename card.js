@@ -1,17 +1,25 @@
-const btn = document.getElementById('btn');
-const rules = document.getElementById('rules');
-let clicked = false
-    btn.addEventListener('click', () => {
-      if (clicked === true) {
-        rules.style.width = '200px';
-        rules.style.opacity= '1';
+const btn = document.querySelectorAll('#btn')[1];
+const hiw = document.getElementById('hiw')
+//hiw -> how it works
+let showHiw = false;
+const hiw_gotit = document.getElementById('hiw_btn')
 
-        clicked = false
-        
-      } else if(clicked===false) {
-        rules.style.width = '0px';
-        rules.style.opacity = '0';
+btn.addEventListener('click',()=>{
+  if(!showHiw){
+    hiw.style.width = "50%";
+    hiw.style.opacity = 1;
+  
+    showHiw = true
+    return
+  }
+  
+})
+hiw_gotit.addEventListener('click',()=>{
+  if(showHiw){
+    hiw.style.width = "0%";
+    hiw.style.opacity = 0;
 
-        clicked = true
-      }
-    });
+    showHiw = false
+
+  }
+})

@@ -5,11 +5,60 @@ body {
 
   .blackjack-table {
     width: 600px;
-    /* height: 800px; */
-    margin: 0 auto;
-    position: relative;
- 
-   
+
+    margin: 0 auto; 
+  }
+  #rules,#hiw{
+    font-family: cursive;
+    position: absolute;
+    background-color:rgb(123, 255, 0);
+    padding: 10px;
+    transition:0.9s ease;
+  }
+  
+#hiw{
+  position: absolute;
+  right: 0%;
+  width: 0%;
+  font-size: small;
+  opacity: 0;
+  top: 35%;
+}
+#hiw_btn{
+  background-color: rgb(171, 168, 168);
+    padding: 5px;
+    border-radius: 5px;
+    font-family: cursive;
+    display: block;
+    margin-top: 2%;
+    width: 100%;
+}
+  #rules{
+    left: 0%;
+    width: 0%;
+    transition: all 3s;
+    top: 20%;
+    height: 40%;
+    border-radius: 8px;
+    backdrop-filter: blur(160px);
+    opacity: 0;
+  }
+  #btn{
+    background-color: rgb(241, 10, 10);
+    padding: 5px;
+    border-radius: 5px;
+    font-family: cursive;
+    margin-left: 30%;
+    margin-top: 2%;
+    
+  }
+  h2{
+    align-items: center;
+    font-weight: bolder;
+    color: black;
+    font-family: cursive;
+    margin-left: 40%;
+
   }
   .container{
       background-image: url(./IMG-20231124-WA0002.jpg);
