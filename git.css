@@ -1,0 +1,30 @@
+
+    #targetElement {
+      display: none;
+    }
+  div{
+    background-color: aqua;
+    height: 200px;
+    width: 300px;
+    animation: fadein 5s;
+  }
+  button{
+    position: absolute;
+  top: 40%;
+  left: 4%;
+  margin: 0%;
+  background-color: crimson;
+  width: 75px;
+  height: 20px;
+  }
+  .fade-in-text {
+    animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  
+ 
